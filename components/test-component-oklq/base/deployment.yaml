@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-oklq
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/test-images:d2a3f81297a7471bb927755ce4851e1a
+      - image: quay.io/redhat-appstudio/test-images@sha256:e6a47e5d17698d28852f65fbad89cd5e84857986b9660aa7d9edcee0eed4bcc4
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
